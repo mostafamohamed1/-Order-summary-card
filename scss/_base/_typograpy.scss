@@ -1,0 +1,17 @@
+.sr-only {
+  width: 0;
+  height: 0;
+  overflow: hidden;
+}
+
+.heading {
+  padding-block: 46px 17px;
+  font-weight: 900;
+  font-size: 28px;
+  color: $clr-blue-900;
+}
+
+.text {
+  line-height: 25.5px;
+  color: $clr-blue-500;
+}

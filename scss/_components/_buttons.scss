@@ -1,0 +1,28 @@
+.btn {
+  margin-top: 30px;
+  font-family: $ff;
+  font-weight: 700;
+  font-size: $fs;
+  border: none;
+  display: block;
+  width: 100%;
+  border-radius: 9px;
+  background-color: transparent;
+  cursor: pointer;
+
+  &-proceed {
+    height: 50px;
+    background-color: $clr-blue-700;
+    color: $clr-white;
+    box-shadow: 0 6px 30px 4px rgba($color: $clr-blue-500, $alpha: 0.2);
+    transition: 0.3s;
+
+    &:hover {
+      background-color: #766cf1;
+    }
+  }
+
+  &-cancel {
+    color: $clr-blue-500;
+  }
+}
