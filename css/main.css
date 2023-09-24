@@ -51,6 +51,7 @@ p {
   padding-bottom: 40px;
   border-radius: 20px;
   max-width: 450px;
+  min-height: 698px;
   overflow: hidden;
   background-color: white; }
   .card-img {
